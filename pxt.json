@@ -1,5 +1,5 @@
 {
-    "name": "Tutoriels_Essais - Copier",
+    "name": "Tutoriels_Essais - Copier - Copier",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -10,7 +10,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "monpremiertuto.md"
+        "monpremiertuto.md",
+        "compteur_son_aux_10.md"
     ],
     "testFiles": [
         "test.ts"
