@@ -6,10 +6,10 @@ Programme le micro:bit pour que le nombre de pression s'affiche et qu'un son se 
 Supprime le bloc ``||basic:toujours||``.
 #### Glisse-le vers la gauche, tu verras apparaître une poubelle.
 
-```blocks
-basic.forever
-```
 
+```blocks
+basic.onStart(function ()
+```
 
 ## Étape 1
 
