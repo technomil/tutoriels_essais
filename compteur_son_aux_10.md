@@ -1,4 +1,4 @@
- Compteur musical
+ ##Compteur musical
 Programme le micro:bit pour que le nombre de pression s'affiche et qu'un son se fasse entendre chaque fois que ce nombre est un multiple de 10.
 
 ## @showdialog
@@ -94,7 +94,7 @@ input.onButtonPressed(Button.A, function () {
 
 ## Étape 10
 
-Remplace le chiffre 0 du  bloc mauve ``||maths:remainer of 0/1 ||`` par ``||variables:compter||`` .
+Remplace le chiffre premier chiffre 0 du  bloc mauve ``||maths:remainer of 0/1 ||`` par ``||variables:compter||`` .
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -128,5 +128,6 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 ```
+
 ## Bravo! Tu as terminé!
 Tu sais maintenant comment créer un compteur musical!
