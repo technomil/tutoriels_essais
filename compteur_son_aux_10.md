@@ -33,7 +33,7 @@ Clique sur ``||variables: variable||``
 
 ## Étape 4
 Glisse le bloc ``||variables:modifier compter de||`` dans le bloc ``||input:lorsque le bouton A est pressé||``.
-### Écris le chiffre 1.
+
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -82,7 +82,7 @@ input.onButtonPressed(Button.A, function () {
 ```
 
 ## Étape 9
-Remplace le nombre 0 par le bloc ``||maths:remainer of 0/1 ||``.
+Remplace le nombre 0 par le bloc mauve ``||maths:remainer of 0/1 ||``.
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -124,10 +124,20 @@ input.onButtonPressed(Button.A, function () {
     count += 1
     basic.showNumber(count)
     if (count % 10 == 0) {
-        music.play(music.stringPlayable("- - - - - - - - ", 120), music.PlaybackMode.UntilDone)
+        music.playMelody("C D E F G A B C5 ", 120)
     }
 })
 ```
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    count += 1
+    basic.showNumber(count)
+    if (count % 10 == 0) {
+        music.play(music.stringPlayable("- - - - - - - - ", 120), music.PlaybackMode.UntilDone)
+    }
+})
+
 
 ## Bravo! Tu as terminé!
 Tu sais maintenant comment créer un compteur musical!
