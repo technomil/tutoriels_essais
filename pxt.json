@@ -12,7 +12,8 @@
         "main.ts",
         "README.md",
         "monpremiertuto.md",
-        "compteur_son_aux_10.md"
+        "compteur_son_aux_10.md",
+        "compteur_son_aux_10_2.md"
     ],
     "testFiles": [
         "test.ts"
