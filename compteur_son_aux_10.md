@@ -28,8 +28,8 @@ input.onButtonPressed(Button.A, function () {
 ```
 ## Étape 3
 
-Clique sur variable
-#### Clique sur créer une variable et donne-lui le nom "compter".
+Clique sur ``||variables: variable||``
+#### Clique ensuite sur créer une variable et donne-lui le nom "compter".
 
 ## Étape 4
 Glisse le bloc ``||variables:modifier compter de||`` dans le bloc ``||input:lorsque le bouton A est pressé||``.
@@ -82,26 +82,40 @@ input.onButtonPressed(Button.A, function () {
 ```
 
 ## Étape 9
-Glisse le bloc ``||maths:remainer of 0/1 ||`` sous le bloc ``||basic:montrer nombre||``.
-### Remplace le chiffre 1 par le nombre 10.
+Remplace le nombre 0 par le bloc ``||maths:remainer of 0/1 ||``.
+
 ```blocks
 input.onButtonPressed(Button.A, function () {
     count += 1
     basic.showNumber(count)
-    if (0 % 10 == 0) {
+    if (0 % 1 == 0) {
     
 ```
 
-## Étape 9
-Remplace le chiffre 0 par le bloc ``||variables:compter||`` .
+## Étape 10
+
+Remplace le chiffre 0 du  bloc mauve ``||maths:remainer of 0/1 ||`` par ``||variables:compter||`` .
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
     count += 1
     basic.showNumber(count)
     if (count % 10 == 0) {
+   
+```
+
+## Étape 11
+Remplace le chiffre 1 du  bloc mauve ``||maths:remainer of 0/1 ||`` par le nombre 10.
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    count += 1
+    basic.showNumber(count)
+    if (0 % 10 == 0) {
     ```
-## Étape 10
+
+    
+## Étape 12
 Ajoute le bloc ``||music:jouer mélodie au tempo 120bpm jusqu'à la fin||`` dans le bloc ``||logic:si vrai ... alors ||``
 ### Compose une mélodie en cliquant sur la note de musique.
 
